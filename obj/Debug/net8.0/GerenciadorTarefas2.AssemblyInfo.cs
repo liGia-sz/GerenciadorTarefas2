@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorTarefas2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b856a15fdc8e63173811fdb9e2ced378fd057e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61005bab5b81e15306aac4124de98f92c6f05be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorTarefas2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorTarefas2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

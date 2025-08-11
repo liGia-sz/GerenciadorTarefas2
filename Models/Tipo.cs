@@ -11,7 +11,7 @@ public class Tipo
     public string Nome { get; set; } = null!;
 
     [Required(ErrorMessage = "O campo Descrição é obrigatório.")]
-    [MinLength(2, ErrorMessage = "Mínimo de 2 caracteres.")]    
+    [MinLength(2, ErrorMessage = "Mínimo de 2 caracteres.")]
     [MaxLength(200, ErrorMessage = "Máximo de 200 caracteres.")]
     public string Descricao { get; set; } = null!;
 }

@@ -1,4 +1,4 @@
-﻿using GerenciadorTarefas2.Models;
+using GerenciadorTarefas2.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
@@ -12,4 +12,6 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
     public DbSet<Tipo> Tipos { get; set; } = null!;
+
+public DbSet<GerenciadorTarefas2.Models.Tarefas> Tarefas { get; set; } = default!;
 }

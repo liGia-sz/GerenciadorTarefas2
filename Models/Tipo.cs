@@ -14,4 +14,5 @@ public class Tipo
     [MinLength(2, ErrorMessage = "Mínimo de 2 caracteres.")]
     [MaxLength(200, ErrorMessage = "Máximo de 200 caracteres.")]
     public string Descricao { get; set; } = null!;
+    public ICollection<Tarefas> Tarefas { get; set; }= new List<Tarefas>();
 }
